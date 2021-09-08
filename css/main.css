@@ -548,6 +548,12 @@ footer .socialNetWorks{
     }
 }
 
+@media (max-width:280px){
+    .sliders .imgSize-2{
+        top: -80%;
+    }
+}
+
 :root {
     --dark-blue--: hsl(233, 26%, 24%);
     --lime-green--: hsl(136, 65%, 51%);
