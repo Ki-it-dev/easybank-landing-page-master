@@ -51,6 +51,39 @@
             </g>
           </svg>
         </div>
+        <!-- Mobile -->
+        <input type="checkbox" name="" class="nav-input" id="nav-mobile-input" hidden>
+        <label for="nav-mobile-input" class="overlay"></label>
+        <div class="header__menu-mobile">
+          <!-- Bar btn -->
+          <label class="bar" for="nav-mobile-input">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="11">
+              <g fill="#2D314D" fill-rule="evenodd">
+                <path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z" />
+              </g>
+            </svg>
+          </label>
+          <!-- Close btn -->
+          <label class="close" for="nav-mobile-input">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19">
+              <g fill="#2D314D" fill-rule="evenodd">
+                <path d="M.868.661l16.97 16.97-.706.708L.162 1.369z" />
+                <path d="M.161 17.632L17.131.662l.708.706-16.97 16.97z" />
+              </g>
+            </svg>
+          </label>
+          <!-- menu mobile -->
+          <div class="listMobile">
+            <ul class="header-moblile-lists">
+              <li class="header-mobile-items"><a href="" class="header-mobile-link">Home</a></li>
+              <li class="header-mobile-items"><a href="" class="header-mobile-link">About</a></li>
+              <li class="header-mobile-items"><a href="" class="header-mobile-link">Contact</a></li>
+              <li class="header-mobile-items"><a href="" class="header-mobile-link">Blog</a></li>
+              <li class="header-mobile-items"><a href="" class="header-mobile-link">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+
         <div class="header__menu">
           <ul class="header__menu-lists">
             <li class="header__menu-items"><a href="" class="header__menu-links">Home</a></li>
@@ -70,7 +103,7 @@
   <div class="sliders">
     <div class="">
       <div class="row">
-        <div class="col l-6 pad-t-148" style="padding-left: 80px;">
+        <div class="col l-6 pad-t-148">
           <h1 class="sliders__title">
             Next generation digital banking
           </h1>
@@ -284,7 +317,7 @@
 
   <footer class="footer">
     <div class="grid wide">
-      <div class="row">
+      <div class="row Reponsive-footer">
         <div class="col l-3">
           <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
             <defs>
@@ -303,7 +336,7 @@
               </g>
             </g>
           </svg>
-          <div class="row" style="margin-top: 60px;" >
+          <div class="row socialNetWorks">
             <div class="socialNetWorksLists"><img src="./images/icon-facebook.svg" alt="" class="imgSize"></div>
             <div class="socialNetWorksLists"><img src="./images/icon-youtube.svg" alt="" class="imgSize"></div>
             <div class="socialNetWorksLists"><img src="./images/icon-twitter.svg" alt="" class="imgSize"></div>
@@ -312,15 +345,15 @@
           </div>
         </div>
         <div class="col l-6">
-          <div class="row">
-            <div class="col l-6">
+          <div class="row descriptionFooter">
+            <div class="col l-6 m-6">
               <ul class="list">
                 <li class="items"><a href="">About Us</a></li>
                 <li class="items"><a href="">Contact</a></li>
                 <li class="items"><a href="">Blog</a></li>
               </ul>
             </div>
-            <div class="col l-6">
+            <div class="col l-6 m-6">
               <ul class="list">
                 <li class="items"><a href="">Careers</a></li>
                 <li class="items"><a href="">Support</a></li>
@@ -344,6 +377,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
